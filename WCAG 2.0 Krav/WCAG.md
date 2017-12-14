@@ -1,30 +1,3 @@
-# Universell utforming for ny web 2018
-
-Kravene Buypass.no skal følge er lovpålagt i [forskrift om universell utforming](https://lovdata.no/dokument/SF/forskrift/2013-06-21-732). 
-
-Difi har ansvaret for å følge opp forskriften, basert på diskriminerings- og tilgjengelighetsloven. Difi sine nettsider har en [oversikt over forskriften](https://uu.difi.no/krav-og-regelverk/kva-seier-forskrifta) og [kravene i WCAG 2.0 standarden](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden).
-
-##Tilgjengelighet
-
->Den grunnleggende ideen bak universell utforming er å utforme samfunnet slik at så mange som mulig kan delta aktivt uavhengig av funksjonsevne.
-
-Det er fire sentrale prinsipper i WCAG 2.0 dokumentet:
-
-#### Mulig å oppfatte
-Informasjon og brukergrensesnittkomponenter må presenteres for brukere på måter som de kan oppfatte.
-#### Mulig å betjene
-Det må være mulig å betjene brukergrensesnittkomponenter og navigeringsfunksjoner.
-#### Forståelig
-Det må være mulig å forstå informasjon og betjening av brukergrensesnitt. 
-#### Robust
-Innholdet må være robust nok til at det kan tolkes på en pålitelig måte av brukeragenter, inkludert kompenserende teknologi.
-
-##Hvilke krav skal følges:
-
-[![Tabell som viser hvilke krav som må følges](https://i.imgur.com/wr6VfAg.jpg)](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/oppbygging-av-wcag-20) 
-
-Krav på nivå A er lettere enn AA. Selv om kravene på AA er strengere enn A skal alle nivåene være oppfylt.
-
 ###Unntak fra reglene
 Nivå A: [Krav 1.2.3: Synstolkning eller mediealternativ (forhåndsinnspilt)](https://uu.difi.no/artikkel/2015/07/123-synstolking-eller-mediealternativ-forhandsinnspilt-niva)
 Nivå AA: [Krav 1.2.4: Teksting direkte](https://uu.difi.no/artikkel/2015/07/124-teksting-direkte-niva-aa) og [krav 1.2.5: Synstolking (forhåndsinnspilt)](https://uu.difi.no/artikkel/2015/07/125-synstolking-forhandsinnpilt-niva-aa)
@@ -48,8 +21,7 @@ Det er viktig at det semantiske er ivaretatt, ARIA og bruk av korrekt html er se
 
 ### [1.2.1 Bare lyd og bare video](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/121-bare-lyd-og-bare-video-forhandsinnspilt-niva) og [1.2.2 Teksting (forhåndsinnspilt)](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/122-teksting-forhandsinnspilt-niva)
 
-Informasjon skal være tilgjengelig for personer med hørsel og synsvansker. Det betyr at video bør tekstes og at innhold ikke bare finnes i lydformat. Simpelthen media bør være tilgjengelig i tekst som en skjermleser kan nå. Hvis video er tekstet og at innhold ikke finnes ekslusivt i lydfiler.
-
+Informasjon skal være tilgjengelig for personer med hørsel og synsvansker. Det betyr at video bør tekstes og at innhold ikke bare finnes i lydformat. Media bør være tilgjengelig i tekst som en skjermleser kan nå. 
 
 ### [1.3.1 Informasjon og relasjoner](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/131-informasjon-og-relasjoner-niva)
 
@@ -82,7 +54,7 @@ Grafiske symboler er sjeldent nok for å forstå innhold. Nielsen Norman groups 
 
 Teknikker som å bruke unicode/icon-fonter for ikoner er også problematisk for skjermlesere. Dette skyldes at font-glyph symbolet blir opplest. Et eksempel er å bruke unicode u+2360 "☰" for en meny. Problemet er at det blir lest opp som "trigram for heaven" på engelsk. Hvis man bruker ikon-fonter må de overstyres ved hjelp av ARIA.
 
-Plassering på siden er ikke mulig å vite for de som bruker skjermlesere. God html med landmarks og regions kan gjøre det lettere å finne innhold. Men det bør ikke referes til innhold basert på visuell-plassering, f.eks oppe til høyre.
+Plassering på siden er ikke mulig å vite for de som bruker skjermlesere. God html med landmarks og regions kan gjøre det lettere å finne innhold. Men det bør ikke refereres til innhold basert på visuell-plassering, f.eks oppe til høyre.
 
 #### Anbefalinger
 * Bruk SVG-ikoner med alt-tekst for ikoner
@@ -93,7 +65,7 @@ Plassering på siden er ikke mulig å vite for de som bruker skjermlesere. God h
 
 Farge skal ikke benyttes som det eneste visuelle virkemiddelet for å formidle informasjon. Kravet omhandler persepsjon av meningsbærende visuelt innhold. En god måte å teste dette på er å skru på svart/hvitt visning.
 
-Tekst og bilder av tekst skal ha en kontrast som oppfyller AA-kravet.
+Tekst og bilder av tekst skal ha en kontrast som oppfyller AA-kravet. Dette innebærer at kontrastforholdet er minst 4.5, med unntak av stor skrift som skal ha minst kontrast på 3.0.
 
 Uvesentlige elementer (dekorasjon) trenger ikke å oppnå kontrastkravet. Dette er subjektivt, men f.eks logoer, eller tekst i et illustrasjonsfoto.
 
@@ -238,39 +210,3 @@ Bekreftelse: Informasjon bør kunne gjennomgås, bekreftes og redigeres før inf
 3.2.4 Konsekvent identifikasjon
 4.1.1 Parsing
 4.1.2 Navn, rolle, verdi
-
-## [Aria](https://www.w3.org/TR/using-aria/#intro)
-
-Komplekse nettløsninger har ofte bruk for elementer som oppfører seg anderledes enn vanlige html-elementer. Nettlesere og html er basert på at det er dokumenter som vises. ARIA er en teknikk for å gi semantisk og logisk oppførsel til elementer som ikke gjenkjennes av skjermlesere og andre tilgjengelighetsverktøy. Roller, states og andre egenskaper kan brukes til å lage tilgjengelige løsninger. 
-
->(«If you can use a native HTML element or attribute with the semantics and behaviour you require already built in, instead of re-purposing an element and adding an ARIA role, state or property to make it accessible, then do so.»)[https://www.w3.org/TR/using-aria/#rule1]
-
-Selv om du kan gjøre det i ARIA betyr ikke nødvendigvis at du skal, (les mer om typiske aria-feil)[https://webaim.org/blog/aria-cause-solution/]. 
-
-##Statistikk
-
-* 180 000 har så svekket syn at de regnes som synshemmede.
-* Én av tolv menn er fargeblinde.
-* 700 000 har hørselsnedsettelse.
-* Mange har konsentrasjonsvansker, og lar seg lett distrahere. Det antas at 2.5 % av norges voksne befolkning har ADHD.
-* 5 % har dysleksi.
-* 12 % av den voksne befolkningen har dårlige leseferdigheter.725 000 er førstegenerasjons innvandrere. Det er rimelig å anta at de fleste av disse har norsk som andrespråk.
-* Innen 2020 vil det være en million eldre over 65 år i Norge, hvorav de aller fleste etter hvert får svekket syn, hørsel og bevegelighet.
-
-## Testing
-
-### Verktøy
-
-Dette er en liste med verktøy som kan hjelpe til testing.
-
-#### [Funkify for chrome](http://www.funkify.org/)
-Funkify har 8 forskjellige personas med forskjellige tilgjengeligshetbehov. Disse testene er gode for persepsjon, motorikk og visuell presentasjons. Noen tester man kan gjøre:
-
-* Svakt syn med blur-effekt
-* Skjelvende mus (motorikk)
-* De vanligste typer fargeblindhet
-
-Funkify handler mer om å forstå hvordan enkelte opplever sider enn å finne konkrete feil. Det er derfor ikke godt nok alene til å teste nettsider.
-
-Tester vi anbefaler:
-* Sjekk om knapper og interaktive elementer er store nok og at det er stor nok avstand til andre elementer. Målet er unngå feil-trykk, gjør det lett å beholde "hover" og mulig å velge interaktive elementer uten høy grad av presisjon (material design retningslinjer for touch-target size)[https://material.io/guidelines/layout/metrics-keylines.html#metrics-keylines-touch-target-size]
