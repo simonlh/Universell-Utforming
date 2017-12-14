@@ -1,0 +1,1234 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>body {
+  max-width: 980px;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 45px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAzUABAAAAAAFNgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABbAAAABwAAAAcZMzaOEdERUYAAAGIAAAAHQAAACAAOQAET1MvMgAAAagAAAA+AAAAYHqhde9jbWFwAAAB6AAAAFIAAAFa4azkLWN2dCAAAAI8AAAAKAAAACgFgwioZnBnbQAAAmQAAAGxAAACZVO0L6dnYXNwAAAEGAAAAAgAAAAIAAAAEGdseWYAAAQgAAAFDgAACMz7eroHaGVhZAAACTAAAAAwAAAANgWEOEloaGVhAAAJYAAAAB0AAAAkDGEGa2htdHgAAAmAAAAAEwAAADBEgAAQbG9jYQAACZQAAAAaAAAAGgsICJBtYXhwAAAJsAAAACAAAAAgASgBD25hbWUAAAnQAAACZwAABOD4no+3cG9zdAAADDgAAABsAAAAmF+yXM9wcmVwAAAMpAAAAC4AAAAusPIrFAAAAAEAAAAAyYlvMQAAAADLVHQgAAAAAM/u9uZ4nGNgZGBg4ANiCQYQYGJgBEJuIGYB8xgABMMAPgAAAHicY2Bm42OcwMDKwMLSw2LMwMDQBqGZihmiwHycoKCyqJjB4YPDh4NsDP+BfNb3DIuAFCOSEgUGRgAKDgt4AAB4nGNgYGBmgGAZBkYGEAgB8hjBfBYGCyDNxcDBwMTA9MHhQ9SHrA8H//9nYACyQyFs/sP86/kX8HtB9UIBIxsDXICRCUgwMaACRoZhDwA3fxKSAAAAAAHyAHABJQB/AIEAdAFGAOsBIwC/ALgAxACGAGYAugBNACcA/wCIeJxdUbtOW0EQ3Q0PA4HE2CA52hSzmZDGe6EFCcTVjWJkO4XlCGk3cpGLcQEfQIFEDdqvGaChpEibBiEXSHxCPiESM2uIojQ7O7NzzpkzS8qRqnfpa89T5ySQwt0GzTb9Tki1swD3pOvrjYy0gwdabGb0ynX7/gsGm9GUO2oA5T1vKQ8ZTTuBWrSn/tH8Cob7/B/zOxi0NNP01DoJ6SEE5ptxS4PvGc26yw/6gtXhYjAwpJim4i4/plL+tzTnasuwtZHRvIMzEfnJNEBTa20Emv7UIdXzcRRLkMumsTaYmLL+JBPBhcl0VVO1zPjawV2ys+hggyrNgQfYw1Z5DB4ODyYU0rckyiwNEfZiq8QIEZMcCjnl3Mn+pED5SBLGvElKO+OGtQbGkdfAoDZPs/88m01tbx3C+FkcwXe/GUs6+MiG2hgRYjtiKYAJREJGVfmGGs+9LAbkUvvPQJSA5fGPf50ItO7YRDyXtXUOMVYIen7b3PLLirtWuc6LQndvqmqo0inN+17OvscDnh4Lw0FjwZvP+/5Kgfo8LK40aA4EQ3o3ev+iteqIq7wXPrIn07+xWgAAAAABAAH//wAPeJyFlctvG1UUh+/12DPN1B7P3JnYjj2Ox4/MuDHxJH5N3UdaEUQLqBIkfQQioJWQ6AMEQkIqsPGCPwA1otuWSmTBhjtps2ADWbJg3EpIXbGouqSbCraJw7kzNo2dRN1cnXN1ZvT7zuuiMEI7ncizyA0URofRBJpCdbQuIFShYY+GZRrxMDVtih5TwQPHtXDFFSIKoWIbuREBjLH27Ny4MsbVx+uOJThavebgVrNRLAiYx06rXsvhxLgWx9xpfHdrs/ekc2Pl2cpPCVEITQpwbj8VQhfXSq2m+Wxqaq2D73Kne5e3NjHqQNj3CRYlJlgUl/jRNP+2Gs2pNYRQiOnmUaQDqm30KqKiTTWPWjboxnTWpvgxjXo0KrtZXAHt7hwIz0YVcj88JnKlJKi3NPAwLyDwZudSmJSMMJFDYaOkaol6XtESx3Gt1VTytdZJ3DCLeaVhVnCBH1fycHTxFXwPX+l2e3d6H/TufGGmMTLTnbSJUdo00zuBswMO/nl3YLeL/wnu9/limCuD3vC54h5NBVz6Li414AI8Vx3iiosKcQXUbrvhFFiYb++HN4DaF4XzFW0fIN4XDWJ3a3XQoq9V8WiyRmdsatV9xUcHims1JloH0YUa090G3Tro3mC6c01f+YwCPquINr1PTaCP6rVTOOmf0GE2dBc7zWIhji3/5MchSuBHgDbU99RMWt3YUNMZMJmx92YP6NsHx/5/M1yvInpnkIOM3Z8fA3JQ2lW1RFC1KaBPDFXNAHYYvGy73aYZZZ3HifbeuiVZCpwA3oQBs0wGPYJbJfg60xrKEbKiNtTe1adwrpBRwlAuQ3q3VRaX0QmQ9a49BTSCuF1MLfQ6+tinOubRBZuWPNoMevGMT+V41KitO1is3D/tpMcq1JHZqDHGs8DoYGDkxJgKjHROeTCmhZvzPm9pod+ltKm4PN7Dyvvldlpsg8D+4AUJZ3F/JBstZz7cbFRxsaAGV6yX/dkcycWf8eS3QlQea+YLjdm3yrOnrhFpUyKVvFE4lpv4bO3Svx/6F/4xmiDu/RT5iI++lko18mY1oX+5UGKR6kmVjM/Zb76yfHtxy+h/SyQ0lLdpdKy/lWB6szatetQJ8nZ80A2Qt6ift6gJeavU3BO4gtxs/KCtNPVibCtYCWY3SIlSBPKXZALXiIR9oZeJ1AuMyxLpHIy/yO7vSiSE+kZvk0ihJ30HgHfzZtEMmvV58x6dtqns0XTAW7Vdm4HJ04OCp/crOO7rd9SGxQAE/mVA9xRN+kVSMRFF6S9JFGUtthkjBA5tFCWc2l4V43Ex9GmUP3SI37Jjmir9KqlaDJ4S4JB3vuM/jzyH1+8MuoZ+QGzfnvPoJb96cZlWjMcKLfgDwB7E634JTY+asjsPzS5CiVnEWY+KsrsIN5rn3mAPjqmQBxGjcGKB9f9ZxY3mYC2L85CJ2FXIxKKyHk+dg0FHbuEc7D5NzWUX32WxFcWNGRAbvwSx0RmIXVDuYySafluQBmzA/ssqJAMLnli+WIC90Gw4lm85wcp0qjArEDPJJV/sSx4P9ungTpgMw5gVC1XO4uULq0s3v1rqLi0vX/z65vlH50f8T/RHmSPTk5xxWBWOluMT6WiOy+tdvWxlV/XQb3o3c6Ssr+r6I708GsX9/nzp1tKFh0s3v7m4vAy/Hnb/KMOvc1wump6Il48K6mGDy02X9Yd65pa+nQIjk76lWxCkG8NBCP0HQS9IpAAAeJxjYGRgYGBhcCrq214Qz2/zlUGenQEEzr/77oug/zewFbB+AHI5GJhAogBwKQ0qeJxjYGRgYH3/P46BgZ0BBNgKGBgZUAEPAE/7At0AAAB4nGNngAB2IGYjhBsYBAAIYADVAAAAAAAAAAAAAFwAyAEeAaACCgKmAx4DggRmAAAAAQAAAAwAagAEAAAAAAACAAEAAgAWAAABAAChAAAAAHiclZI7bxQxFIWPd/JkUYQChEhIyAVKgdBMskm1QkKrRETpQiLRUczueB/K7HhlOxttg8LvoKPgP9DxFxANDR0tHRWi4NjrPIBEgh1p/dm+vufcawNYFWsQmP6e4jSyQB2fI9cwj++RE9wTjyPP4LYoI89iWbyLPIe6+Bh5Hs9rryMv4GbtW+RF3EhuRa7jbrIbeQkPkjdUETOLnL0Kip4FVvAhco1RXyMnSPEz8gzWxE7kWTwUp5HnsCLeR57HW/El8gJWa58iL+JO7UfkOh4l9yMv4UnyEtvQGGECgwF66MNBooF1bGCL1ELB/TYU+ZBRlvsKQ44Se6jQ4a7hef+fh72Crv25kp+8lNWGmeKoOI5jJLb1aGIGvb6TjfWNLdkqdFvJw4l1amjlXtXRZqRN7lSRylZZyhBqpVFWmTEXgWfUrpi/hZOQXdOd4rKuXOtEWT3k5IArPRzTUU5tHKjecZkTpnVbNOnt6jzN8240GD4xtikvZW56043rPMg/dS+dlOceXoR+WPbJ55Dsekq1lJpnypsMUsYOdCW30o103Ytu/lvh+5RWFLfBjm9/N8hJntPhvx92rnoE/kyHdGasGy754kw36vsVf/lFeBi+0COu+cfgQr42G3CRpeLoZ53gmfe3X6rcKt5oVxnptHR9JS8ehVUd5wvvahN2uqxOOpMXapibI5k7Zwbt4xBSaTfoKBufhAnO/uqNcfK8OTs0OQ6l7JIqFjDhYj5WcjevCnI/1DDiI8j4ndWb/5YzDZWh79yomWXeXj7Nnw70/2TIeFPTrlSh89k1ObOSRVZWZfgF0r/zJQB4nG2JUQuCQBCEd07TTg36fb2IyBaLd3vWaUh/vmSJnvpgmG8YcmS8X3Shf3R7QA4OBUocUKHGER5NNbOOEvwc1txnuWkTRb/aPjimJ5vXabI+3VfOiyS15UWvyezM2xiGOPyuMohOH8O8JiO4Af+FsAGNAEuwCFBYsQEBjlmxRgYrWCGwEFlLsBRSWCGwgFkdsAYrXFhZsBQrAAA=) format('woff');
+}
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headeranchor-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .headeranchor-link:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .headeranchor,
+.markdown-body h2 .headeranchor,
+.markdown-body h3 .headeranchor,
+.markdown-body h4 .headeranchor,
+.markdown-body h5 .headeranchor,
+.markdown-body h6 .headeranchor {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .headeranchor-link,
+.markdown-body h2:hover .headeranchor-link,
+.markdown-body h3:hover .headeranchor-link,
+.markdown-body h4:hover .headeranchor-link,
+.markdown-body h5:hover .headeranchor-link,
+.markdown-body h6:hover .headeranchor-link {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .headeranchor-link .headeranchor,
+.markdown-body h2:hover .headeranchor-link .headeranchor,
+.markdown-body h3:hover .headeranchor-link .headeranchor,
+.markdown-body h4:hover .headeranchor-link .headeranchor,
+.markdown-body h5:hover .headeranchor-link .headeranchor,
+.markdown-body h6:hover .headeranchor-link .headeranchor {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* Multimarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><title>uu</title></head><body><article class="markdown-body"><h1 id="universell-utforming-for-ny-web-2018"><a name="user-content-universell-utforming-for-ny-web-2018" href="#universell-utforming-for-ny-web-2018" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Universell utforming for ny web 2018</h1>
+<p>Kravene Buypass.no skal følge er lovpålagt i <a href="https://lovdata.no/dokument/SF/forskrift/2013-06-21-732">forskrift om universell utforming</a>. </p>
+<p>Difi har ansvaret for å følge opp forskriften, basert på diskriminerings- og tilgjengelighetsloven. Difi sine nettsider har en <a href="https://uu.difi.no/krav-og-regelverk/kva-seier-forskrifta">oversikt over forskriften</a> og <a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden">kravene i WCAG 2.0 standarden</a>.</p>
+<h2 id="tilgjengelighet"><a name="user-content-tilgjengelighet" href="#tilgjengelighet" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Tilgjengelighet</h2>
+<blockquote>
+<p>Den grunnleggende ideen bak universell utforming er å utforme samfunnet slik at så mange som mulig kan delta aktivt uavhengig av funksjonsevne.</p>
+</blockquote>
+<p>Det er fire sentrale prinsipper i WCAG 2.0 dokumentet:</p>
+<h4 id="mulig-a-oppfatte"><a name="user-content-mulig-a-oppfatte" href="#mulig-a-oppfatte" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Mulig å oppfatte</h4>
+<p>Informasjon og brukergrensesnittkomponenter må presenteres for brukere på måter som de kan oppfatte.</p>
+<h4 id="mulig-a-betjene"><a name="user-content-mulig-a-betjene" href="#mulig-a-betjene" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Mulig å betjene</h4>
+<p>Det må være mulig å betjene brukergrensesnittkomponenter og navigeringsfunksjoner.</p>
+<h4 id="forstaelig"><a name="user-content-forstaelig" href="#forstaelig" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Forståelig</h4>
+<p>Det må være mulig å forstå informasjon og betjening av brukergrensesnitt. </p>
+<h4 id="robust"><a name="user-content-robust" href="#robust" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Robust</h4>
+<p>Innholdet må være robust nok til at det kan tolkes på en pålitelig måte av brukeragenter, inkludert kompenserende teknologi.</p>
+<h2 id="hvilke-krav-skal-flges"><a name="user-content-hvilke-krav-skal-flges" href="#hvilke-krav-skal-flges" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Hvilke krav skal følges:</h2>
+<p><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/oppbygging-av-wcag-20"><img alt="Tabell som viser hvilke krav som må følges" src="https://i.imgur.com/wr6VfAg.jpg" /></a> </p>
+<p>Krav på nivå A er lettere enn AA. Selv om kravene på AA er strengere enn A skal alle nivåene være oppfylt.</p>
+<h3 id="unntak-fra-reglene"><a name="user-content-unntak-fra-reglene" href="#unntak-fra-reglene" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Unntak fra reglene</h3>
+<p>Nivå A: <a href="https://uu.difi.no/artikkel/2015/07/123-synstolking-eller-mediealternativ-forhandsinnspilt-niva">Krav 1.2.3: Synstolkning eller mediealternativ (forhåndsinnspilt)</a><br />
+Nivå AA: <a href="https://uu.difi.no/artikkel/2015/07/124-teksting-direkte-niva-aa">Krav 1.2.4: Teksting direkte</a> og <a href="https://uu.difi.no/artikkel/2015/07/125-synstolking-forhandsinnpilt-niva-aa">krav 1.2.5: Synstolking (forhåndsinnspilt)</a><br />
+Nivå AAA: Alle krav er unntatt. </p>
+<h2 id="kommentarer-til-kravene"><a name="user-content-kommentarer-til-kravene" href="#kommentarer-til-kravene" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Kommentarer til kravene</h2>
+<p>Det følgende er bare noen anbefalinger og kommentarer og ikke en beskrivelse av selve kravene. </p>
+<p>Det meste som står her er mulig å leses på DIFI sine nettsider. Noen av kravene er subjektive og andre er avhengig av spesiell kompetanse. Tilgjengelighet er vanskelig og gode intensjoner kan føre til at en <em>vennlig</em> løsning for en spesifikk gruppe ødelegger opplevelsen for andre. </p>
+<p>Noen av forslagene her er til spesifikke krav, mens andre er generelle forslag som bør vurderes.</p>
+<h2 id="mulig-a-oppfatte_1"><a name="user-content-mulig-a-oppfatte_1" href="#mulig-a-oppfatte_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Mulig å oppfatte</h2>
+<h3 id="111-ikke-tekstlig-innhold"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/111-ikke-tekstlig-innhold-niva">1.1.1: Ikke tekstlig innhold</a></h3>
+<p>Her er det viktig å huske alt-tekster og viktigheten av å bruke riktige html-elementer for interaktive og meningsbærende ikke-tekstlig elementer. </p>
+<p>Det er viktig at det semantiske er ivaretatt, ARIA og bruk av korrekt html er sentralt her.</p>
+<h3 id="121-bare-lyd-og-bare-video-og-122-teksting-forhandsinnspilt"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/121-bare-lyd-og-bare-video-forhandsinnspilt-niva">1.2.1 Bare lyd og bare video</a> og <a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/122-teksting-forhandsinnspilt-niva">1.2.2 Teksting (forhåndsinnspilt)</a></h3>
+<p>Informasjon skal være tilgjengelig for personer med hørsel og synsvansker. Det betyr at video bør tekstes og at innhold ikke bare finnes i lydformat. Simpelthen media bør være tilgjengelig i tekst som en skjermleser kan nå. Hvis video er tekstet og at innhold ikke finnes ekslusivt i lydfiler.</p>
+<h3 id="131-informasjon-og-relasjoner"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/131-informasjon-og-relasjoner-niva">1.3.1 Informasjon og relasjoner</a></h3>
+<blockquote>
+<p>Ting skal være kodet som det ser ut som</p>
+</blockquote>
+<p>Dette kravet er svært omfattende og er en del av andre krav.  </p>
+<h4 id="anbefalinger"><a name="user-content-anbefalinger" href="#anbefalinger" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Anbefalinger</h4>
+<p>Vær varsom med tabeller :</p>
+<ul>
+<li>Forsøk å lage å enkle tabeller</li>
+<li>Splitt store tabeller i flere mindre tabeller om det er mulig å bevare informasjonen</li>
+</ul>
+<p>Vær varsom med skjema:</p>
+<h3 id="132-meningsfylt-rekkeflge"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/132-meningsfylt-rekkefolge-niva">1.3.2 Meningsfylt rekkefølge</a></h3>
+<blockquote>
+<p>Når rekkefølgen som innholdet presenteres i, påvirker meningsinnholdet, kan en korrekt leserekkefølge bestemmes programmeringsmessig.</p>
+</blockquote>
+<p>Tabrekkefølge og opplesningen via skjermlesere skal stemme overens med det som presenteres visuelt. </p>
+<p>Dette skal testes manuelt ved å gå gjennom tabrekkefølgen og sjekke at innholdet leses opp med korrekt rekkefølge. Vanligvis er dette uproblematisk med god html.</p>
+<h3 id="133-sensoriske-egenskaper"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/133-sensoriske-egenskaper-niva">1.3.3 Sensoriske egenskaper</a></h3>
+<p>Grafiske symboler er sjeldent nok for å forstå innhold. Nielsen Norman groups forskning viser at <a href="https://www.nngroup.com/articles/icon-usability/">ikoner burde presenteres i sammenheng med tekst</a>. </p>
+<p>Teknikker som å bruke unicode/icon-fonter for ikoner er også problematisk for skjermlesere. Dette skyldes at font-glyph symbolet blir opplest. Et eksempel er å bruke unicode u+2360 &ldquo;☰&rdquo; for en meny. Problemet er at det blir lest opp som &ldquo;trigram for heaven&rdquo; på engelsk. Hvis man bruker ikon-fonter må de overstyres ved hjelp av ARIA.</p>
+<p>Plassering på siden er ikke mulig å vite for de som bruker skjermlesere. God html med landmarks og regions kan gjøre det lettere å finne innhold. Men det bør ikke referes til innhold basert på visuell-plassering, f.eks oppe til høyre.</p>
+<h4 id="anbefalinger_1"><a name="user-content-anbefalinger_1" href="#anbefalinger_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Anbefalinger</h4>
+<ul>
+<li>Bruk SVG-ikoner med alt-tekst for ikoner</li>
+<li>Ikke bruk hamburger-meny uten tekst som vises selv på mobil-størrelser</li>
+<li>Ikoner burde stå i sammenheng med en tekst</li>
+</ul>
+<h3 id="141-bruk-av-farge-niva-a-143-kontrast-minimum-niva-aa-og-145-bilder-av-tekst"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/141-bruk-av-farge-niva">1.4.1 Bruk av farge (Nivå A)</a> , <a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/143-kontrast-minimum-niva-aa">1.4.3 Kontrast (minimum, Nivå AA)</a> og <a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/145-bilder-av-tekst-niva-aa">1.4.5 Bilder av tekst</a></h3>
+<p>Farge skal ikke benyttes som det eneste visuelle virkemiddelet for å formidle informasjon. Kravet omhandler persepsjon av meningsbærende visuelt innhold. En god måte å teste dette på er å skru på svart/hvitt visning.</p>
+<p>Tekst og bilder av tekst skal ha en kontrast som oppfyller AA-kravet.</p>
+<p>Uvesentlige elementer (dekorasjon) trenger ikke å oppnå kontrastkravet. Dette er subjektivt, men f.eks logoer, eller tekst i et illustrasjonsfoto.</p>
+<h4 id="anbefalinger_2"><a name="user-content-anbefalinger_2" href="#anbefalinger_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Anbefalinger</h4>
+<p>Tekst på bilder:</p>
+<ul>
+<li>Sjekk bakgrunner som tekst legges over</li>
+<li>Bruk teknikker som <a href="https://material.io/guidelines/style/imagery.html#imagery-ui-integration">scrim</a> hvis det skal legges tekst på bilder</li>
+<li>Test tekst på bilder nøye, det er laveste kontrast som gjelder (unntak for visuell effekt)</li>
+<li>Unngå helst bilder av tekst, et eksempel på dette er tabellen med kravene øverst. Det er ikke god praksis :) </li>
+</ul>
+<p>Størrelse:</p>
+<ul>
+<li>Bruk stor skrift som utgangspunkt: 1 rem = 16 eller 18.</li>
+<li>Unngå å bruke liten skrift under 16px, eller fotnoter på 14px<ul>
+<li>Designet burde ikke trenge liten skrift i det hele tatt</li>
+</ul>
+</li>
+</ul>
+<p>Farge på tekst:</p>
+<ul>
+<li>Unngå lys tekst med unntak av deaktivert/skjult tekst</li>
+<li>Bruk en mørk variant av svart for all tekst. For eksempel #222222 eller #333333 </li>
+</ul>
+<h3 id="144-endring-av-tekststrrelse"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/144-endring-av-tekststorrelse-niva-aa">1.4.4: Endring av tekststørrelse</a></h3>
+<blockquote>
+<p>Tekst skal kunne endres til 200% størrelse uten tap av innhold eller funksjon</p>
+</blockquote>
+<p>Websidene bør designes til å være responsive og kunne tåle en betraktelig endring med zoom.</p>
+<h4 id="anbefalinger_3"><a name="user-content-anbefalinger_3" href="#anbefalinger_3" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Anbefalinger</h4>
+<ul>
+<li>Bruk relative enheter for størrelse på tekst</li>
+<li>Vurder å bruke relative enheter for å tillate at teksten i grensesnittet tar dobbelt så stor plass</li>
+</ul>
+<h2 id="mulig-a-betjene_1"><a name="user-content-mulig-a-betjene_1" href="#mulig-a-betjene_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Mulig å betjene</h2>
+<h3 id="211-tastatur-og-212-ingen-tastaturfelle-243-fokusrekkeflge"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/211-tastatur-niva">2.1.1 Tastatur</a> og <a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/212-ingen-tastaturfelle-niva">2.1.2 Ingen tastaturfelle</a>, <a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/243-fokusrekkefolge-niva">2.4.3 Fokusrekkefølge</a>, <a href=""></a></h3>
+<blockquote>
+<p>All funksjonalitet skal kunne brukes kun ved hjelp av tastatur.</p>
+<p>Unngå tastaturfeller</p>
+<p>Presenter innholdet i en logisk rekkefølge.</p>
+</blockquote>
+<p>Krav 2.1.1-2 og 2.4.3 er omfattende og krever betydelig testing av nettsidene. Kravet gjør det viktig å forenkle, gjenbruke og teste elementer.</p>
+<h4 id="anbefalinger_4"><a name="user-content-anbefalinger_4" href="#anbefalinger_4" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Anbefalinger</h4>
+<ul>
+<li>Bruk a11y støttede elementer og teknikker om mulig:<ul>
+<li><a href="http://videojs.com/">videavspillere</a></li>
+<li>datovelgere</li>
+</ul>
+</li>
+<li>Kompliserte interaktive elementer bør testes</li>
+<li>Sjekk <a href="https://www.w3.org/TR/wai-aria-practices-1.1/#aria_ex">ARIA dokumentasjonen</a> for deres anbefalinger for forskjellige elementer </li>
+</ul>
+<h3 id="241-hoppe-over-blokker"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/241-hoppe-over-blokker-niva">2.4.1 Hoppe over blokker</a></h3>
+<blockquote>
+<p>Gi brukeren mulighet til å hoppe direkte til hovedinnholdet.</p>
+</blockquote>
+<p>Det enkleste kan være å bruke skip links som vises når man tabber inn i siden. Skip-linken hopper direkte til hovedinnholdet.</p>
+<h4 id="anbefalinger_5"><a name="user-content-anbefalinger_5" href="#anbefalinger_5" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Anbefalinger</h4>
+<ul>
+<li>I html marker opp om hva slags del av siden vi er på. Se <a href="https://www.w3.org/TR/WCAG20-TECHS/ARIA11.html">aria-landmarks beskrivelsen</a> for mer informasjon.</li>
+<li>Bruk <a href="https://webaim.org/techniques/skipnav/">hopp til hovedinnhold lenker</a> på toppen av siden. Lenken trenger ikke å vises hele tiden men de må være synlig for de som navigerer med tastatur. </li>
+</ul>
+<h3 id="_1"><a name="user-content-_1" href="#_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a></h3>
+<h3 id="242-sidetitler"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/242-sidetitler-niva">2.4.2 Sidetitler</a></h3>
+<blockquote>
+<p>Bruk nyttige og tydelig sidetitler<br />
+Alle websidene vi har bør ha go</p>
+</blockquote>
+<h3 id="243-fokusrekkeflge"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/243-fokusrekkefolge-niva">2.4.3 Fokusrekkefølge</a></h3>
+<blockquote>
+<p>Presenter innholdet i en logisk rekkefølge</p>
+</blockquote>
+<p>Navigeringssekvens bør være logisk både for de som navigerer med tastatur og de som navigerer med skjermleser. Som oftest vil de være DOM-strukturen som påvirker navigasjonen her. </p>
+<h4 id="anbefalinger_6"><a name="user-content-anbefalinger_6" href="#anbefalinger_6" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Anbefalinger</h4>
+<ul>
+<li>Unngå å hoppe over headinger i rekkefølgen. F.eks ikke hopp fra h1 til h3. </li>
+</ul>
+<h3 id="244-formal-med-lenke-i-kontekst"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/244-formal-med-lenke-i-kontekst-niva">2.4.4 Formål med lenke (i kontekst)</a></h3>
+<p>Alle lenkers mål og funksjon fremgår tydelig av lenketeksten.</p>
+<h4 id="anbefalinger_7"><a name="user-content-anbefalinger_7" href="#anbefalinger_7" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Anbefalinger</h4>
+<ul>
+<li>Unngå tekster som pdf, les mer, klikk her på lenker</li>
+<li>Omformuler setninger slik at lenkene blir lettere å forstå</li>
+<li>Det bør også fremgå hvor lenker leder til enten med kontekst eller eksplisitt</li>
+<li>Bruk ARIA labelledby om det er en lenke som ikke har kontekst </li>
+</ul>
+<h3 id="246-overskrifter-og-ledetekster-og-332-ledetekster-eller-instruksjoner"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/246-overskrifter-og-ledetekster-niva-aa">2.4.6 Overskrifter og ledetekster</a> og <a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/332-ledetekster-eller-instruksjoner-niva">3.3.2 Ledetekster eller instruksjoner</a></h3>
+<p>Titler, ledetekster skal være kontekstuelle og beskrive emne eller meningen.</p>
+<p>Dette kravet er viktig for å utforme skjemaer og flyter som er lette å forstå og huske. Når man bruker en skjermleser er overskrifter og ledetekster helt sentrale for å danne en oppfatning av hva som forventes og kreves.</p>
+<p>Skjemaelementer og interaktive elementer må kunne forstås også for skjermlesere. Restriksjoner, krav og annen sentralt informasjon bør kommuniseres til skjermleseren på riktig tidspunkt. Det betyr ikke at alt informasjon som presenteres visuelt må være med.</p>
+<h4 id="anbefalinger_8"><a name="user-content-anbefalinger_8" href="#anbefalinger_8" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Anbefalinger</h4>
+<ul>
+<li>Heydon Pickering anbefaler å bruke ARIA-describedby for å beskrive ledeteksten til et passordfelt. Det er mange alternative teknikker. Det viktigste er at teksten ikke bare er mulig å forstå hvis den er presentert visuelt</li>
+<li>Labelledby er også viktig om et felt ikke har en tittel</li>
+</ul>
+<h3 id="247-synlig-fokus"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/247-synlig-fokus-niva-aa">2.4.7 Synlig fokus</a></h3>
+<blockquote>
+<p>Sørg for at alt innhold får synlig fokus når du navigerer med tastatur.</p>
+</blockquote>
+<p>Ikke fjern keyboard-focus uten å lage ny CSS som er sterkere enn standarden i nettlesere.</p>
+<h2 id="forstaelig_1"><a name="user-content-forstaelig_1" href="#forstaelig_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Forståelig</h2>
+<h3 id="311-sprak-pa-siden-312-sprak-pa-deler-av-innhold"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/311-sprak-pa-siden-niva">3.1.1 Språk på siden</a>, <a href="3.1.2 Språk på deler av innhold">3.1.2 Språk på deler av innhold</a></h3>
+<blockquote>
+<p>Sørg for at språket til innholdet på alle websider er angitt i koden.</p>
+<p>Sørg for at alle deler av innholdet som er på et annet språk enn resten av siden er markert i koden.</p>
+</blockquote>
+<p>Skjermlesere støtter flere språk, om en bruker har standard språk som norsk men også engelsk stemme installert vil skjermleseren bytte språk for innhold men ikke meta-informasjon som type felt.</p>
+<h3 id="322-inndata"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/322-inndata-niva">3.2.2 Inndata</a></h3>
+<blockquote>
+<p>Endring av verdien til et skjemafelt medfører ikke automatisk betydelige endringer i siden.</p>
+</blockquote>
+<h3 id="331-identifikasjon-av-feil-333-forslag-ved-feil-og-334-forhindring-av-feil-juridiske-feil-konomiske-feil-datafeil"><a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/331-identifikasjon-av-feil-niva">3.3.1 Identifikasjon av feil </a>, <a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/333-forslag-ved-feil-niva-aa">3.3.3 Forslag ved feil</a>, og <a href="https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/334-forhindring-av-feil-juridiske-feil-okonomiske-feil-datafeil-niva-aa">3.3.4 Forhindring av feil (juridiske feil, økonomiske feil, datafeil)</a></h3>
+<blockquote>
+<p>For feil som oppdages automatisk må du vise hvor feilen har oppstått og gi en tekstbeskrivelse av feilen</p>
+</blockquote>
+<p>Reverserbarhet: Innsending kan reverseres om mulig<br />
+Kontroll: Sjekk for feil i dataene som brukeren angir om mulig<br />
+Bekreftelse: Informasjon bør kunne gjennomgås, bekreftes og redigeres før informasjonen sendes inn.</p>
+<h3 id="krav-jeg-ikke-har-kommentert"><a name="user-content-krav-jeg-ikke-har-kommentert" href="#krav-jeg-ikke-har-kommentert" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Krav jeg ikke har kommentert</h3>
+<p>2.2.1 Justerbar hastighet<br />
+2.2.2 Pause, stopp, skjul<br />
+2.4.5 Flere måter<br />
+3.2.1 Fokus<br />
+3.2.3 Konsekvent navigering<br />
+3.2.4 Konsekvent identifikasjon<br />
+4.1.1 Parsing<br />
+4.1.2 Navn, rolle, verdi</p>
+<h2 id="aria"><a href="https://www.w3.org/TR/using-aria/#intro">Aria</a></h2>
+<p>Komplekse nettløsninger har ofte bruk for elementer som oppfører seg anderledes enn vanlige html-elementer. Nettlesere og html er basert på at det er dokumenter som vises. ARIA er en teknikk for å gi semantisk og logisk oppførsel til elementer som ikke gjenkjennes av skjermlesere og andre tilgjengelighetsverktøy. Roller, states og andre egenskaper kan brukes til å lage tilgjengelige løsninger. </p>
+<blockquote>
+<p>(«If you can use a native HTML element or attribute with the semantics and behaviour you require already built in, instead of re-purposing an element and adding an ARIA role, state or property to make it accessible, then do so.»)[<a href="https://www.w3.org/TR/using-aria/#rule1">https://www.w3.org/TR/using-aria/#rule1</a>]</p>
+</blockquote>
+<p>Selv om du kan gjøre det i ARIA betyr ikke nødvendigvis at du skal, (les mer om typiske aria-feil)[<a href="https://webaim.org/blog/aria-cause-solution/">https://webaim.org/blog/aria-cause-solution/</a>]. </p>
+<h2 id="statistikk"><a name="user-content-statistikk" href="#statistikk" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Statistikk</h2>
+<ul>
+<li>180 000 har så svekket syn at de regnes som synshemmede.</li>
+<li>Én av tolv menn er fargeblinde.</li>
+<li>700 000 har hørselsnedsettelse.</li>
+<li>Mange har konsentrasjonsvansker, og lar seg lett distrahere. Det antas at 2.5 % av norges voksne befolkning har ADHD.</li>
+<li>5 % har dysleksi.</li>
+<li>12 % av den voksne befolkningen har dårlige leseferdigheter.725 000 er førstegenerasjons innvandrere. Det er rimelig å anta at de fleste av disse har norsk som andrespråk.</li>
+<li>Innen 2020 vil det være en million eldre over 65 år i Norge, hvorav de aller fleste etter hvert får svekket syn, hørsel og bevegelighet.</li>
+</ul>
+<h2 id="testing"><a name="user-content-testing" href="#testing" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Testing</h2>
+<h3 id="verkty"><a name="user-content-verkty" href="#verkty" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Verktøy</h3>
+<p>Dette er en liste med verktøy som kan hjelpe til testing.</p>
+<h4 id="funkify-for-chrome"><a href="http://www.funkify.org/">Funkify for chrome</a></h4>
+<p>Funkify har 8 forskjellige personas med forskjellige tilgjengeligshetbehov. Disse testene er gode for persepsjon, motorikk og visuell presentasjons. Noen tester man kan gjøre:</p>
+<ul>
+<li>Svakt syn med blur-effekt</li>
+<li>Skjelvende mus (motorikk)</li>
+<li>De vanligste typer fargeblindhet</li>
+</ul>
+<p>Funkify handler mer om å forstå hvordan enkelte opplever sider enn å finne konkrete feil. Det er derfor ikke godt nok alene til å teste nettsider.</p>
+<p>Tester vi anbefaler:<br />
+* Sjekk om knapper og interaktive elementer er store nok og at det er stor nok avstand til andre elementer. Målet er unngå feil-trykk, gjør det lett å beholde &ldquo;hover&rdquo; og mulig å velge interaktive elementer uten høy grad av presisjon (material design retningslinjer for touch-target size)[<a href="https://material.io/guidelines/layout/metrics-keylines.html#metrics-keylines-touch-target-size">https://material.io/guidelines/layout/metrics-keylines.html#metrics-keylines-touch-target-size</a>]</p></article></body></html>

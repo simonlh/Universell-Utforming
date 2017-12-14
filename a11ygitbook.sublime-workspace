@@ -1,0 +1,488 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "uu.md",
+			"settings":
+			{
+				"buffer_size": 15754,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/O/Utvikling/InteraksjonsDesign-IxD/Strategy/WebTekster.md",
+			"settings":
+			{
+				"buffer_size": 591,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"floo",
+				"Floobits - Complete Sign Up"
+			],
+			[
+				"packages",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"live",
+				"LiveReload: Self test"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown exte",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"google",
+				"Google Spell Check"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"markdown ed",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"INSTALL ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 508.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"git clone https://github.com/Floobits/floobits-sublime.git Floobits",
+			"cd C:\\Users\\slhy\\AppData\\Roaming\\Sublime Text 3\\Packages",
+			"cd C:\\\\Users\\\\slhy\\\\AppData\\\\Roaming\\\\Sublime Text 3\\\\Packages",
+			"sublime.packages_path()",
+			"[ v.settings().erase(\"color_scheme\") for views in [ w.views() for w in sublime.windows() ] for v in views ]",
+			"v.settings().erase(\"color_scheme\") for views in [ w.views() for w in sublime.windows() ] for v in views ",
+			"[ v.settings().erase(\"color_scheme\") for views in [ w.views() for w in sublime.windows() ] for v in views ]",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Strategy/WebTekster.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/New web 2017/InnsiktsarbeidRasktOverblikk.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/GodeTekster.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Error-messages/wips_error_en.pf",
+		"/H/accessibility.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Strategy/mobileStrategy.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Strategy/internKommunikasjon.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Strategy/thingsweneed.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Strategy/uxwriter.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Strategy/PubliseringavTekst.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Strategy/appStrategy.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Strategy/Web resources/argumentasjonForWebRessurs.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Strategy/Profil og ideer ifra UX.md",
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Default (Windows).sublime-keymap",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Error-messages/mipsserverconfig.properties",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Error-messages/wips_error_no.pf",
+		"/C/Users/slhy/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/76OEJ0W9/accessibility.md",
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/DataForAnalyseAvBetalingFuksjonalitet.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/BP Code/releaseNotes.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/New web 2017/SSL.md",
+		"/C/Users/slhy/Documents/My Received Files/strings nb.xml",
+		"/C/Users/slhy/Documents/My Received Files/strings no.xml",
+		"/C/Users/slhy/Documents/My Received Files/strings.xml",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Testing/kundekontakt.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/taxonomy.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/releases.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Testing/Testbrukere.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/planer.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/testing 08.08.2017.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/permissions.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/testing13072017.md",
+		"/H/Buypass Code/bpCode.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/testing20072017.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/ideer.md",
+		"/C/Users/slhy/Downloads/designtanker.md",
+		"/C/Users/slhy/Downloads/designtanker (1).md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Testing/Testing 27.06.2017/Testing 27.06.2017.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/BP Code/fingerprint/plan.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Atomic Design Planning/Design System.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/SLHY/Texts/habits.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Design System",
+		"/O/Utvikling/InteraksjonsDesign-IxD/BP Code/fingerprint/Testing 27.06.2017.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Error-messages/error-nt.pf",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Error-messages/error_wipsgui4.pf",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Astrum/public/pattern-library/components/buttons/description.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/tillatelser.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/forhindrePinMisforståelse.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/iosActivation.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/android Activation.md",
+		"/C/Users/slhy/floobits/welcome.md",
+		"/C/Users/slhy/AppData/Local/Temp/18.html",
+		"/C/Users/slhy/Documents/pattern-library/data.json",
+		"/C/Users/slhy/AppData/Local/Temp/16.html",
+		"/C/Users/slhy/Documents/pattern-library/app/css/styles.css",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Testing/Alpha 5/et siste steg.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Testing/Alpha 5/AndroidtabletTesting-09-06.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Astrum/public/pattern-library/components/buttons/default/markup.html",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Astrum/public/pattern-library/components/buttons/default/description.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Testing/Alpha 5/sikkerhet.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Testing/Alpha 5/31-05-2017-1715.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Testing/Testbrukere.mdown",
+		"/O/Utvikling/InteraksjonsDesign-IxD/arbeid.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/arbeidKarolina.md",
+		"/C/Users/slhy/AppData/Local/Temp/Temp1_SVG-Loaders-master.zip/SVG-Loaders-master/LICENSE.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/appStore.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/newWarning.svg",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Presentasjoner/First Thursday 09.03/ft.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Tekster/todofredag.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Prototyper/Pattern Library/Swirls/lightSwirls.svg",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Prototyper/Pattern Library/Swirls/lightSwirls",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Presentasjoner/17-02-2017/OppsummeringMøte.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/ideerMarkedsføring.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/todo.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/Terms of service - Kundeavtale/termsofservice.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Presentasjoner/17-02-2017/tanker.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/test.svg",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Production Version 10.02.2017/Ikoner/keylock.svg",
+		"/O/Utvikling/InteraksjonsDesign-IxD/ID og betaling/Production Version 10.02.2017/Ikoner/versjon2.svg",
+		"/H/IdogBetaling/Prosjekter/sikkerId/skjermerPlan.md",
+		"/H/IdogBetaling/FunnetFeil.md",
+		"/H/IdogBetaling/Prosjekter/Fingerprint/norskBekreft.md",
+		"/H/IdogBetaling/Prosjekter/sikkerId/sikkerId.md",
+		"/H/IdogBetaling/Prosjekter/Fingerprint/fingerPrintDialog3.md",
+		"/H/IdogBetaling/Prosjekter/sikkerId/dataOMidOgBetaling.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/SLHY/IdOgBetaling/norskFinal.md",
+		"/H/idOgBetaling/fingerPrintDialog.md",
+		"/H/IdogBetaling/fingerPrintDialog3.md",
+		"/H/IdogBetaling/Møtenotater/27-01-2017-Fingerprint.md",
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/O/Utvikling/InteraksjonsDesign-IxD/SLHY/norskFinger.md",
+		"/O/Utvikling/InteraksjonsDesign-IxD/SLHY/ver2.md",
+		"/H/Id og Betaling/planDokument.md",
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/H/idOgBetaling/planDokument.md",
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownLight.sublime-settings",
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/H/idOgBetaling/planDokument",
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/H/Dokumenter/npm/hello.js"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 113.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"é",
+			"115",
+			"63",
+			": ",
+			"noeeeeee",
+			"konstekter",
+			"enable"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"e"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "uu.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15754,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								507,
+								507
+							]
+						],
+						"settings":
+						{
+							"parser": "markdown",
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax",
+							"target": "browser"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/slhy/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/O/Utvikling/InteraksjonsDesign-IxD/Strategy/WebTekster.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								591,
+								591
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 94.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 148.0
+	},
+	"pinned_build_system": "Packages/Markdown Preview/Markdown.sublime-build",
+	"project": "a11ygitbook.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
