@@ -7,7 +7,7 @@
 ### WCAG 2.0 Krav
 
 * [Hvilke krav skal følges](WCAG 2.0 Krav/WCAG.md)
-* [Test med anchor](WCAG 2.0 Krav/WCAG.md#linktest)
+	* [Test med anchor](WCAG 2.0 Krav/WCAG.md#linktest)
 
 ### Testing av WCAG
 
