@@ -7,7 +7,7 @@
 ### WCAG 2.0 Krav
 
 * [Hvilke krav skal følges](WCAG 2.0 Krav/WCAG.md)
-* [Test med anchor](WCAG 2.0 Krav/WCAG.md#unntak_fra_reglene)
+* [Test med anchor](WCAG 2.0 Krav/WCAG.md#krav_jeg_ikke_har_kommentert)
 
 ### Testing av WCAG
 
