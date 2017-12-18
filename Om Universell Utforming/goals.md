@@ -13,8 +13,6 @@ Tjenester vi skal levere skal møte alle WCAG 2.0 kravene men vi ønsker i tille
 * Klikkbare elementer skal være minimum 48px på korteste side. Selve elementet trenger ikke være 48px men det klikkbare området bør være 48px.
 * Farge skal aldri være det eneste meningsbærende, løsningen bør være forståelig i svart hvitt.
 
-
-
 ## Bonus
 * Interne lenker og eksterne lenker skal skilles mellom
-* 
+* La lenker være lenker og knapper være knapper

@@ -1,11 +1,14 @@
 # Summary
 
-### Om universell utforming
+## Om universell utforming
 
 * [Om universell utforming](Om Universell Utforming/OmUU.md)
+* [Mål for universell utforming](Om Universell utforming/goals.md)
+* [Emner](Emner/README.md)
+    * [Tastatur navigasjon](Emner/Tastaturnavigasjon.md)
 
-### WCAG 2.0 Krav
-
+## WCAG 2.0 Krav
+* [Forskrift om universll utforming](WCAG 2.0 Krav/forskrift.md)
 * [Hvilke krav skal følges](WCAG 2.0 Krav/kravunntak.md)
 * [Kommentarer](WCAG 2.0 Krav/WCAG.md)
 	* [Ikke tekstlig innhold](WCAG 2.0 Krav/WCAG.md#111)
@@ -26,20 +29,20 @@
     * [Identifikasjon av feil, forslag ved feil og forhindring av feil](WCAG 2.0 Krav/WCAG.md#322)
 * [Ikke kommentert](WCAG 2.0 Krav/IkkeKommentert)
 
-### Testing
+## Testing
 
 * [Testing av WCAG](Testing/Testing.md)
 
-### Verktøy
+## Verktøy
 
 * [Verktøy](Verktøy/Verktøy.md)
 
-### Statistikk
+## Statistikk
 
 * [Statistikk om tilgjengelighet](Statistikk/Statistikk.md)
 
-### Bøker og artikler
+## Bøker og artikler
 
 * [Bøker](Kilder/litteratur.md)
 
-### Relevante lenker
+## Relevante lenker
