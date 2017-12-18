@@ -1,7 +1,5 @@
 # Om universell utforming
 
-
-
 >Den grunnleggende ideen bak universell utforming er å utforme samfunnet slik at så mange som mulig kan delta aktivt uavhengig av funksjonsevne.
 
 Universell utforming handler om å lage løsninger som er tilgjengelig og mulig å bruke på en meningsfull måte. God universell utforming gjør at løsninger er mer strukturte, ryddige, og stabile.
