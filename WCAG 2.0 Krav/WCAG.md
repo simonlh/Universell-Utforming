@@ -8,13 +8,25 @@ Det meste som står her er mulig å leses på DIFI sine nettsider. Noen av krave
 
 Noen av forslagene her er til spesifikke krav, mens andre er generelle forslag som bør vurderes.
 
+---
+
 # Mulig å oppfatte
 
 ## [1.1.1: Ikke tekstlig innhold](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/111-ikke-tekstlig-innhold-niva) {#111}
 
-Her er det viktig å huske alt-tekster og viktigheten av å bruke riktige html-elementer for interaktive og meningsbærende ikke-tekstlig elementer. 
+Alt innhold som ikke er tekst må tolkes av støttemidler som skjermlesere. Basert på kontekst og behov må man vurdere hvordan elementen skal oppleveles. Dekorative elementer eller elementer som ikke presenteres for brukere skal det implementeres slik at det blir ignorert av skjermlesere.
 
-Det er viktig at det semantiske er ivaretatt, ARIA og bruk av korrekt html er sentralt her.
+###Anbefalinger
+
+* Alt-tekster skal beskrive funksjonen til bilde/elementet og vanligvis ikke være en beskrivelse å bilde i seg selv.
+* Ikke start alt-tekst med "bilde av", dette leses opp av skjermleseren
+* Alt-attributet er avhengig av kontekst. Hvis det samme bilde bruke to steder hvor det betyr forskjellige ting bør alt-teksten være forskjellig.
+* Dekorative elementer skal ha et tomt alt-attribut
+* Hvis et bilde også er en lenke burde lenketeksten være deskriptiv og erstatte behovet for alt-teksten til bildet
+* Det er anbefalt å bruke en [.visually-hidden utility class i css](http://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html) for å skjule innhold som alikevel kan nås av skjermlesere. Dette kan brukes for å gi kontekstuell informasjon til skjermlesere.
+* Kontrollelementer som skjemafelter har navn som beskriver hva det er og gjør. Hvis det er mulig bruk et standard html element. Skjermlesere og andre støtteverktøy kjenner til vanlige html-elementer og kan gi korrekte instrukser.
+Hvis man benytter et ukjent alternativ kan bruke [aria-roller](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques)
+
 
 ---
 
@@ -28,16 +40,22 @@ Informasjon skal være tilgjengelig for personer med hørsel og synsvansker. Det
 
 > Ting skal være kodet som det ser ut som
 
-Dette kravet er svært omfattende og er en del av andre krav.  
+Det beste er i blant det enkleste. Kravet er litt vagt men betyr i praksis at man følger html standarden og unngår å komplisere løsninger. Ikke finn opp kruttet. Presentasjonen av noe skal ikke påvirke det underliggende enkelhenten i html. Hvis noe ser ut som en liste bør det også være en liste i html.
 
 ###Anbefalinger
 
 Vær varsom med tabeller :
 
 * Forsøk å lage å enkle tabeller
+* Tilgjengelige tabeller trenger caption og titler for rader og kolonner. Les mer om [tilgjengelige tabeller på the a11y project](https://a11yproject.com/posts/accessible-data-tables/)
+* Vurder om tabell egentlig er det du trenger
 * Splitt store tabeller i flere mindre tabeller om det er mulig å bevare informasjonen
 
 Vær varsom med skjema:
+
+* Bruk standardelementer
+
+**La lenker være lenker og knapper være knapper** se [Marcy Sutton artikkel om forskjellen mellom lenker og knapper](https://marcysutton.com/links-vs-buttons-in-modern-web-applications/)
 
 ---
 
@@ -49,15 +67,22 @@ Tabrekkefølge og opplesningen via skjermlesere skal stemme overens med det som 
 
 Dette skal testes manuelt ved å gå gjennom tabrekkefølgen og sjekke at innholdet leses opp med korrekt rekkefølge. Vanligvis er dette uproblematisk med god html.
 
+###Anbefalinger
+
+* Unngå å bruke tabindex = "1" eller høyere
+* Velg om ting skal kunne nås med tabindex = "0" eller ikke nås med tabindex="-1". Mer om dette på [webaims sider om tabindex](https://webaim.org/techniques/keyboard/tabindex).
+
 ---
 
 ## [1.3.3 Sensoriske egenskaper](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/133-sensoriske-egenskaper-niva) {#133}
 
 Grafiske symboler er sjeldent nok for å forstå innhold. Nielsen Norman groups forskning viser at [ikoner burde presenteres i sammenheng med tekst](https://www.nngroup.com/articles/icon-usability/). 
 
+###Icon-fonts
 Teknikker som å bruke unicode/icon-fonter for ikoner er også problematisk for skjermlesere. Dette skyldes at font-glyph symbolet blir opplest. Et eksempel er å bruke unicode u+2360 "☰" for en meny. Problemet er at det blir lest opp som "trigram for heaven" på engelsk. Hvis man bruker ikon-fonter må de overstyres ved hjelp av ARIA.
 
-Plassering på siden er ikke mulig å vite for de som bruker skjermlesere. God html med landmarks og regions kan gjøre det lettere å finne innhold. Men det bør ikke refereres til innhold basert på visuell-plassering, f.eks oppe til høyre.
+###Visuell plassering
+Plassering på siden er ikke mulig å vite for de som bruker skjermlesere. God html med landmarks og regions kan gjøre det lettere å finne innhold. Men det bør ikke refereres til innhold basert på visuell-plassering, f.eks oppe til høyre. 
 
 ###Anbefalinger
 * Bruk SVG-ikoner med alt-tekst for ikoner
@@ -146,7 +171,10 @@ Det enkleste kan være å bruke skip links som vises når man tabber inn i siden
 ## [2.4.2 Sidetitler](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/242-sidetitler-niva) {#242}
 
 >Bruk nyttige og tydelig sidetitler
-Alle websidene vi har bør ha sidetitler som gir en kjapp innsikt i hva siden inneholder. 
+
+Alle websidene vi har bør ha sidetitler som gir en kjapp innsikt i hva siden inneholder. Det er ganske enkelt en tittel.
+
+Det er den spesifikke siden som skal være en del av tittelen og ikke løsningens navn. En artikkel skal ha artikkelens tittel som sidetittel.
 
 ---
 
@@ -158,7 +186,8 @@ Navigeringssekvens bør være logisk både for de som navigerer med tastatur og 
 
 ###Anbefalinger
 
-* Unngå å hoppe over headinger i rekkefølgen. F.eks ikke hopp fra h1 til h3. 
+* Unngå å hoppe over headinger i rekkefølgen. F.eks ikke hopp fra h1 til h3.
+* Ha stålkontroll over dok-strukturen og hvordan den påvirker navigasjonen. 
 
 ---
 
@@ -166,12 +195,33 @@ Navigeringssekvens bør være logisk både for de som navigerer med tastatur og 
 
 Alle lenkers mål og funksjon fremgår tydelig av lenketeksten.
 
+Å skrive tekst til lenker er ikke lett, men det er ofte verd å ta ekstra tid for å forsikre at lenker er lette å skjønne og at det er lett å skjønne hva som er konsekvensen av å trykke på en lenke.
+
+###Eksterne lenker
+
+Heydon Pickering anbefaler å bruke en *selector* for *href* som vises til alle lenker til eksterne nettsider. Hvis jeg er på minside.no så:
+```html
+[href^="http"]:not([href*="minside.no"])
+```
+
+Kombinert med en pseudo-klasse og et svg ikon
+
+```html
+[href^="http"]:not([href*="minside])::after { display: inline-block;
+width: 1em;
+height: 1em;
+background-image: url('path/to/external-icon.svg'); background-repeat: no-repeat;
+background-position: center;
+background-size: 75% auto;
+}
+```
+
 ###Anbefalinger
 
 * Unngå tekster som pdf, les mer, klikk her på lenker
 * Omformuler setninger slik at lenkene blir lettere å forstå
 * Det bør også fremgå hvor lenker leder til enten med kontekst eller eksplisitt
-* Bruk ARIA labelledby om det er en lenke som ikke har kontekst 
+* Bruk ARIA label for å gi kontekst til lenker om nødvendig
 
 ---
 
@@ -181,7 +231,7 @@ Titler, ledetekster skal være kontekstuelle og beskrive emne eller meningen.
 
 Dette kravet er viktig for å utforme skjemaer og flyter som er lette å forstå og huske. Når man bruker en skjermleser er overskrifter og ledetekster helt sentrale for å danne en oppfatning av hva som forventes og kreves.
 
-Skjemaelementer og interaktive elementer må kunne forstås også for skjermlesere. Restriksjoner, krav og annen sentralt informasjon bør kommuniseres til skjermleseren på riktig tidspunkt. Det betyr ikke at alt informasjon som presenteres visuelt må være med.
+Restriksjoner, krav og annen sentralt informasjon bør kommuniseres til skjermleseren på riktig tidspunkt. Det betyr ikke at alt informasjon som presenteres visuelt må være med. 
 
 ###Anbefalinger
 
@@ -204,6 +254,7 @@ Heydon Pickering anbefaler tre ting:
 * Sjekk at elementet er synlig
 * Sjekk at *fokus*-staten er synlig
 
+
 ---
 
 ## Forståelig
@@ -222,16 +273,30 @@ Skjermlesere støtter flere språk, om en bruker har standard språk som norsk m
 
 > Endring av verdien til et skjemafelt medfører ikke automatisk betydelige endringer i siden.
 
+Automatikk som skjer uventet bør unngås. Det er derfor anbefalt å ha "submit" knapper for skjemaer. Felter som forsvinner og kommer frem er også problematisk for skjermlesere. Hvis en del av siden er "live" bør det brukes teknikker for å opplyse om dette til skjermlesere. Aria-live regions gjør det mulig å ha endringer på siden som opplyses. Et godt eksempel er (Mozilla sin artikkel om live-regions for en combo-box)[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions].
+
 ---
 
 ##[3.3.1 Identifikasjon av feil ](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/331-identifikasjon-av-feil-niva), [3.3.3 Forslag ved feil](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/333-forslag-ved-feil-niva-aa), og [3.3.4 Forhindring av feil (juridiske feil, økonomiske feil, datafeil)](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/334-forhindring-av-feil-juridiske-feil-okonomiske-feil-datafeil-niva-aa) {#331}
 
 > For feil som oppdages automatisk må du vise hvor feilen har oppstått og gi en tekstbeskrivelse av feilen
 
- 
+
 Reverserbarhet: Innsending kan reverseres om mulig
 Kontroll: Sjekk for feil i dataene som brukeren angir om mulig
 Bekreftelse: Informasjon bør kunne gjennomgås, bekreftes og redigeres før informasjonen sendes inn.
 
+###Anbefalinger
+
+Interaktive elementer og brukerflyter må testes med skjermlesere. Det er et av de mer kompliserte stegene i å tilrettelegge for skjermlesere. Det anbefales å gjøre seg kjent med live-regions og 
+
+* For meldinger som ikke skal avbryte flyt kan man gjøre som anbefalt i [w3 artikkel Live-regions og role=alert for feilmeldinger](https://www.w3.org/TR/WCAG20-TECHS/ARIA19.html)
+* Legg til om et felt har blitt fylt feil for skjermleser[aria Invalid attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-invalid_attribute)
+
+For skjemafelter hvor valideringen sjekkes live bør de brukes en teknikk for å unngå å fyre validering ved hvert tastetrykk. Heydon Pickering anbefaler å bruke [LoDash.debounce "wait" parameter](https://lodash.com/docs/4.17.4#debounce) til å vente med å validere i f.eks 150 millisekunder etter siste tastetrykk.
+
+´´´
+
+´´´
 ---
 
