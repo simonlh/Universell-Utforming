@@ -194,7 +194,15 @@ Skjemaelementer og interaktive elementer må kunne forstås også for skjermlese
 
 >Sørg for at alt innhold får synlig fokus når du navigerer med tastatur.
 
-Ikke fjern keyboard-focus uten å lage ny CSS som er sterkere enn standarden i nettlesere.
+At et element er i fokus må være synlig, enten ved å bruke nettleserstandarden eller en bedre versjon. Hvis man designer en egen løsning bør man ta høyde for at det er synlighet og ikke astestiske behov som har presendens her. Et godt eksempel på synlig fokus er [gov.uk retningslinjer for skjemafelter](https://govuk-elements.herokuapp.com/form-elements/#form-focus-states). Her brukes en sterk gulfarge som bakgrunn for fokuserbare elementer. For interaktive objekter får de en utvendig ramme i samme farge.
+
+###Anbefalinger
+
+Heydon Pickering anbefaler tre ting:
+
+* Sjekk at elementet kan få *focus*
+* Sjekk at elementet er synlig
+* Sjekk at *fokus*-staten er synlig
 
 ---
 
