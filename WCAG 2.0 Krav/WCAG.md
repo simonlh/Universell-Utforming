@@ -291,7 +291,7 @@ Bekreftelse: Informasjon bør kunne gjennomgås, bekreftes og redigeres før inf
 Interaktive elementer og brukerflyter må testes med skjermlesere. Det er et av de mer kompliserte stegene i å tilrettelegge for skjermlesere. Det anbefales å gjøre seg kjent med live-regions og 
 
 * For meldinger som ikke skal avbryte flyt kan man gjøre som anbefalt i [w3 artikkel Live-regions og role=alert for feilmeldinger](https://www.w3.org/TR/WCAG20-TECHS/ARIA19.html)
-* Legg til om et felt har blitt fylt feil for skjermleser[aria Invalid attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-invalid_attribute)
+* Legg til om et skjemafelt sitt innhold ikke validerer med [Aria Invalid attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-invalid_attribute)
 
 For skjemafelter hvor valideringen sjekkes live bør de brukes en teknikk for å unngå å fyre validering ved hvert tastetrykk. Heydon Pickering anbefaler å bruke [LoDash.debounce "wait" parameter](https://lodash.com/docs/4.17.4#debounce) til å vente med å validere i f.eks 150 millisekunder etter siste tastetrykk.
 
