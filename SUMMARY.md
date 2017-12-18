@@ -14,7 +14,17 @@
     * [Meningsfylt rekkefølge](WCAG 2.0 Krav/WCAG.md#132) 
     * [Sensoriske egenskaper](WCAG 2.0 Krav/WCAG.md#133) 
     * [Bruk av farge, kontrast og bilder av tekst](WCAG 2.0 Krav/WCAG.md#141) 
-* [Andre krav](WCAG 2.0 Krav/WCAG.md#IkkeKommentert)
+    * [Mulig å betjene, Ingen tasturfelle og Fokusrekkefølge](WCAG 2.0 Krav/WCAG.md#211) 
+    * [Hoppe over blokker](WCAG 2.0 Krav/WCAG.md#241)
+    * [Sidetitler](WCAG 2.0 Krav/WCAG.md#242)
+    * [Fokusrekkefølge](WCAG 2.0 Krav/WCAG.md#243)
+    * [Formål med lenke i kontekst](WCAG 2.0 Krav/WCAG.md#244)
+    * [Overskrifter og ledetekster, og Ledetekster eller instruksjoner](WCAG 2.0 Krav/WCAG.md#246)
+    * [Synlig fokus](WCAG 2.0 Krav/WCAG.md#247)
+    * [Språk på siden og språk på deler av innhold](WCAG 2.0 Krav/WCAG.md#311)
+    * [Inndata](WCAG 2.0 Krav/WCAG.md#322)
+    * [Identifikasjon av feil, forslag ved feil og forhindring av feil](WCAG 2.0 Krav/WCAG.md#322)
+* [Ikke kommentert](WCAG 2.0 Krav/IkkeKommentert)
 
 ### Testing
 

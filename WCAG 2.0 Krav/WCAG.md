@@ -98,7 +98,7 @@ Websidene bør designes til å være responsive og kunne tåle en betraktelig en
 
 ## Mulig å betjene
 
-### [2.1.1 Tastatur](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/211-tastatur-niva) og [2.1.2 Ingen tastaturfelle](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/212-ingen-tastaturfelle-niva), [2.4.3 Fokusrekkefølge](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/243-fokusrekkefolge-niva), []()
+### [2.1.1 Tastatur](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/211-tastatur-niva), [2.1.2 Ingen tastaturfelle](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/212-ingen-tastaturfelle-niva), og [2.4.3 Fokusrekkefølge](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/243-fokusrekkefolge-niva) {#211}
 
 >All funksjonalitet skal kunne brukes kun ved hjelp av tastatur.
 
@@ -116,7 +116,7 @@ Krav 2.1.1-2 og 2.4.3 er omfattende og krever betydelig testing av nettsidene. K
 * Kompliserte interaktive elementer bør testes
 * Sjekk [ARIA dokumentasjonen](https://www.w3.org/TR/wai-aria-practices-1.1/#aria_ex) for deres anbefalinger for forskjellige elementer 
 
-### [2.4.1 Hoppe over blokker](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/241-hoppe-over-blokker-niva)
+### [2.4.1 Hoppe over blokker](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/241-hoppe-over-blokker-niva) {#241}
 
 > Gi brukeren mulighet til å hoppe direkte til hovedinnholdet.
 
@@ -128,12 +128,12 @@ Det enkleste kan være å bruke skip links som vises når man tabber inn i siden
 * Bruk [hopp til hovedinnhold lenker](https://webaim.org/techniques/skipnav/) på toppen av siden. Lenken trenger ikke å vises hele tiden men de må være synlig for de som navigerer med tastatur. 
 
 ### 
-### [2.4.2 Sidetitler](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/242-sidetitler-niva)
+### [2.4.2 Sidetitler](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/242-sidetitler-niva) {#242}
 
 >Bruk nyttige og tydelig sidetitler
-Alle websidene vi har bør ha go
+Alle websidene vi har bør ha sidetitler som gir en kjapp innsikt i hva siden inneholder. 
 
-### [2.4.3 Fokusrekkefølge](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/243-fokusrekkefolge-niva)
+### [2.4.3 Fokusrekkefølge](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/243-fokusrekkefolge-niva) {#243}
 
 >Presenter innholdet i en logisk rekkefølge
 
@@ -144,7 +144,7 @@ Navigeringssekvens bør være logisk både for de som navigerer med tastatur og 
 * Unngå å hoppe over headinger i rekkefølgen. F.eks ikke hopp fra h1 til h3. 
 
 
-### [2.4.4 Formål med lenke (i kontekst)](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/244-formal-med-lenke-i-kontekst-niva)
+### [2.4.4 Formål med lenke (i kontekst)](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/244-formal-med-lenke-i-kontekst-niva) {#244}
 
 Alle lenkers mål og funksjon fremgår tydelig av lenketeksten.
 
@@ -156,7 +156,7 @@ Alle lenkers mål og funksjon fremgår tydelig av lenketeksten.
 * Bruk ARIA labelledby om det er en lenke som ikke har kontekst 
 
 
-### [2.4.6 Overskrifter og ledetekster](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/246-overskrifter-og-ledetekster-niva-aa) og [3.3.2 Ledetekster eller instruksjoner](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/332-ledetekster-eller-instruksjoner-niva) 
+### [2.4.6 Overskrifter og ledetekster](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/246-overskrifter-og-ledetekster-niva-aa) og [3.3.2 Ledetekster eller instruksjoner](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/332-ledetekster-eller-instruksjoner-niva) {#246}
 
 Titler, ledetekster skal være kontekstuelle og beskrive emne eller meningen.
 
@@ -169,7 +169,7 @@ Skjemaelementer og interaktive elementer må kunne forstås også for skjermlese
 * Heydon Pickering anbefaler å bruke ARIA-describedby for å beskrive ledeteksten til et passordfelt. Det er mange alternative teknikker. Det viktigste er at teksten ikke bare er mulig å forstå hvis den er presentert visuelt
 * Labelledby er også viktig om et felt ikke har en tittel
 
-### [2.4.7 Synlig fokus](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/247-synlig-fokus-niva-aa)
+### [2.4.7 Synlig fokus](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/247-synlig-fokus-niva-aa) {#247}
 
 >Sørg for at alt innhold får synlig fokus når du navigerer med tastatur.
 
@@ -177,7 +177,7 @@ Ikke fjern keyboard-focus uten å lage ny CSS som er sterkere enn standarden i n
 
 ## Forståelig
 
-### [3.1.1 Språk på siden](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/311-sprak-pa-siden-niva), [3.1.2 Språk på deler av innhold](3.1.2 Språk på deler av innhold)
+### [3.1.1 Språk på siden](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/311-sprak-pa-siden-niva), [3.1.2 Språk på deler av innhold](3.1.2 Språk på deler av innhold) {#311}
 
 >Sørg for at språket til innholdet på alle websider er angitt i koden.
 
@@ -185,11 +185,11 @@ Ikke fjern keyboard-focus uten å lage ny CSS som er sterkere enn standarden i n
 
 Skjermlesere støtter flere språk, om en bruker har standard språk som norsk men også engelsk stemme installert vil skjermleseren bytte språk for innhold men ikke meta-informasjon som type felt.
 
-###[3.2.2 Inndata](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/322-inndata-niva)
+###[3.2.2 Inndata](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/322-inndata-niva) {#322}
 
 > Endring av verdien til et skjemafelt medfører ikke automatisk betydelige endringer i siden.
 
-###[3.3.1 Identifikasjon av feil ](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/331-identifikasjon-av-feil-niva), [3.3.3 Forslag ved feil](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/333-forslag-ved-feil-niva-aa), og [3.3.4 Forhindring av feil (juridiske feil, økonomiske feil, datafeil)](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/334-forhindring-av-feil-juridiske-feil-okonomiske-feil-datafeil-niva-aa)
+###[3.3.1 Identifikasjon av feil ](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/331-identifikasjon-av-feil-niva), [3.3.3 Forslag ved feil](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/333-forslag-ved-feil-niva-aa), og [3.3.4 Forhindring av feil (juridiske feil, økonomiske feil, datafeil)](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/334-forhindring-av-feil-juridiske-feil-okonomiske-feil-datafeil-niva-aa) {#331}
 
 > For feil som oppdages automatisk må du vise hvor feilen har oppstått og gi en tekstbeskrivelse av feilen
 
@@ -198,13 +198,5 @@ Reverserbarhet: Innsending kan reverseres om mulig
 Kontroll: Sjekk for feil i dataene som brukeren angir om mulig
 Bekreftelse: Informasjon bør kunne gjennomgås, bekreftes og redigeres før informasjonen sendes inn.
 
-### Krav jeg ikke har kommentert {#IkkeKommentert}
-2.2.1 Justerbar hastighet
-2.2.2 Pause, stopp, skjul
-2.4.5 Flere måter
-3.2.1 Fokus
-3.2.3 Konsekvent navigering
-3.2.4 Konsekvent identifikasjon
-4.1.1 Parsing
-4.1.2 Navn, rolle, verdi
+
 
