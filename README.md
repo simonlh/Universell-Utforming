@@ -1,3 +1,11 @@
-#README
+#Universell Utforming Gitbook
 
-Vet ikke hva som skal være i readme
+___
+
+#Versjon 0.1
+
+Føste versjon av retningslinjer til hvordan vi skal jobbe med universell utforming i Buypass.
+
+Denne versjonen er laget i gitbook slik at den er lett tigjengelig til alle som kan være interesserte.
+
+Har du noen innspill eller ideer? Kontakt slhy@buypass.no eller legg igjen en kommentar på gitbook sidene.
