@@ -1,7 +1,4 @@
-###Unntak fra reglene
-Nivå A: [Krav 1.2.3: Synstolkning eller mediealternativ (forhåndsinnspilt)](https://uu.difi.no/artikkel/2015/07/123-synstolking-eller-mediealternativ-forhandsinnspilt-niva)
-Nivå AA: [Krav 1.2.4: Teksting direkte](https://uu.difi.no/artikkel/2015/07/124-teksting-direkte-niva-aa) og [krav 1.2.5: Synstolking (forhåndsinnspilt)](https://uu.difi.no/artikkel/2015/07/125-synstolking-forhandsinnpilt-niva-aa)
-Nivå AAA: Alle krav er unntatt. 
+
 
 ## Kommentarer til kravene
 
@@ -13,17 +10,17 @@ Noen av forslagene her er til spesifikke krav, mens andre er generelle forslag s
 
 ## Mulig å oppfatte
 
-### [1.1.1: Ikke tekstlig innhold](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/111-ikke-tekstlig-innhold-niva)
+### [1.1.1: Ikke tekstlig innhold](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/111-ikke-tekstlig-innhold-niva) {#111}
 
 Her er det viktig å huske alt-tekster og viktigheten av å bruke riktige html-elementer for interaktive og meningsbærende ikke-tekstlig elementer. 
 
 Det er viktig at det semantiske er ivaretatt, ARIA og bruk av korrekt html er sentralt her.
 
-### [1.2.1 Bare lyd og bare video](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/121-bare-lyd-og-bare-video-forhandsinnspilt-niva) og [1.2.2 Teksting (forhåndsinnspilt)](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/122-teksting-forhandsinnspilt-niva)
+### [1.2.1 Bare lyd og bare video](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/121-bare-lyd-og-bare-video-forhandsinnspilt-niva) og [1.2.2 Teksting (forhåndsinnspilt)](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/122-teksting-forhandsinnspilt-niva) {#121}
 
 Informasjon skal være tilgjengelig for personer med hørsel og synsvansker. Det betyr at video bør tekstes og at innhold ikke bare finnes i lydformat. Media bør være tilgjengelig i tekst som en skjermleser kan nå. 
 
-### [1.3.1 Informasjon og relasjoner](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/131-informasjon-og-relasjoner-niva)
+### [1.3.1 Informasjon og relasjoner](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/131-informasjon-og-relasjoner-niva) {#131}
 
 > Ting skal være kodet som det ser ut som
 
@@ -40,7 +37,7 @@ Vær varsom med skjema:
 
 
 
-### [1.3.2 Meningsfylt rekkefølge](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/132-meningsfylt-rekkefolge-niva)
+### [1.3.2 Meningsfylt rekkefølge](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/132-meningsfylt-rekkefolge-niva) {#132}
 
 > Når rekkefølgen som innholdet presenteres i, påvirker meningsinnholdet, kan en korrekt leserekkefølge bestemmes programmeringsmessig.
 
@@ -48,7 +45,7 @@ Tabrekkefølge og opplesningen via skjermlesere skal stemme overens med det som 
 
 Dette skal testes manuelt ved å gå gjennom tabrekkefølgen og sjekke at innholdet leses opp med korrekt rekkefølge. Vanligvis er dette uproblematisk med god html.
 
-### [1.3.3 Sensoriske egenskaper](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/133-sensoriske-egenskaper-niva)
+### [1.3.3 Sensoriske egenskaper](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/133-sensoriske-egenskaper-niva) {#133}
 
 Grafiske symboler er sjeldent nok for å forstå innhold. Nielsen Norman groups forskning viser at [ikoner burde presenteres i sammenheng med tekst](https://www.nngroup.com/articles/icon-usability/). 
 
@@ -61,7 +58,7 @@ Plassering på siden er ikke mulig å vite for de som bruker skjermlesere. God h
 * Ikke bruk hamburger-meny uten tekst som vises selv på mobil-størrelser
 * Ikoner burde stå i sammenheng med en tekst
 
-### [1.4.1 Bruk av farge (Nivå A)](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/141-bruk-av-farge-niva) , [1.4.3 Kontrast (minimum, Nivå AA)](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/143-kontrast-minimum-niva-aa) og [1.4.5 Bilder av tekst](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/145-bilder-av-tekst-niva-aa)
+### [1.4.1 Bruk av farge (Nivå A)](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/141-bruk-av-farge-niva) , [1.4.3 Kontrast (minimum, Nivå AA)](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/143-kontrast-minimum-niva-aa) og [1.4.5 Bilder av tekst](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/145-bilder-av-tekst-niva-aa) {#141}
 
 Farge skal ikke benyttes som det eneste visuelle virkemiddelet for å formidle informasjon. Kravet omhandler persepsjon av meningsbærende visuelt innhold. En god måte å teste dette på er å skru på svart/hvitt visning.
 
@@ -89,7 +86,7 @@ Farge på tekst:
 * Unngå lys tekst med unntak av deaktivert/skjult tekst
 * Bruk en mørk variant av svart for all tekst. For eksempel #222222 eller #333333 
 
-### [1.4.4: Endring av tekststørrelse](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/144-endring-av-tekststorrelse-niva-aa)
+### [1.4.4: Endring av tekststørrelse](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/144-endring-av-tekststorrelse-niva-aa) {#144}
 
 >Tekst skal kunne endres til 200% størrelse uten tap av innhold eller funksjon
 
@@ -201,7 +198,7 @@ Reverserbarhet: Innsending kan reverseres om mulig
 Kontroll: Sjekk for feil i dataene som brukeren angir om mulig
 Bekreftelse: Informasjon bør kunne gjennomgås, bekreftes og redigeres før informasjonen sendes inn.
 
-### Krav jeg ikke har kommentert
+### Krav jeg ikke har kommentert {#IkkeKommentert}
 2.2.1 Justerbar hastighet
 2.2.2 Pause, stopp, skjul
 2.4.5 Flere måter
