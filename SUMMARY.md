@@ -3,7 +3,7 @@
 ## Om universell utforming
 
 * [Om universell utforming](Om Universell Utforming/OmUU.md)
-* [Mål for universell utforming](Om Universell utforming/goals.md)
+* [Mål for universell utforming](Om Universell Utforming/goals.md)
 * [Emner](Emner/README.md)
     * [Tastatur navigasjon](Emner/Tastaturnavigasjon.md)
 
