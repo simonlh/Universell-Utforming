@@ -9,10 +9,16 @@ Universell utforming handler om å lage løsninger som er tilgjengelig og mulig 
 Det er fire sentrale prinsipper i WCAG 2.0 dokumentet:
 
 #### Mulig å oppfatte
+
 Informasjon og brukergrensesnittkomponenter må presenteres for brukere på måter som de kan oppfatte.
+
 #### Mulig å betjene
+
 Det må være mulig å betjene brukergrensesnittkomponenter og navigeringsfunksjoner.
+
 #### Forståelig
+
 Det må være mulig å forstå informasjon og betjening av brukergrensesnitt. 
+
 #### Robust
 Innholdet må være robust nok til at det kan tolkes på en pålitelig måte av brukeragenter, inkludert kompenserende teknologi.

@@ -1,11 +1,9 @@
 
-
 # Kommentarer til kravene
 
-Det følgende er bare noen anbefalinger og kommentarer og ikke en beskrivelse av selve kravene. 
+For å forkorte innholdet er anbefalinger og kommentarer ikke en beskrivelse av selve kravene. Hvert krav er lenket til DIFI sine nettsider.  
 
-Det meste som står her er mulig å leses på DIFI sine nettsider. Noen av kravene er subjektive og andre er avhengig av spesiell kompetanse. Tilgjengelighet er vanskelig og gode intensjoner kan føre til at en *vennlig* løsning for en spesifikk gruppe ødelegger opplevelsen for andre. 
-
+Det meste som står her er mulig å leses på DIFI sine nettsider. Noen av kravene er subjektive og andre er avhengig av spesiell kompetanse. 
 Noen av forslagene her er til spesifikke krav, mens andre er generelle forslag som bør vurderes.
 
 ---

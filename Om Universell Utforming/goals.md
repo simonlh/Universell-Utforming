@@ -2,11 +2,16 @@
 
 Tjenester vi skal levere skal gi en god brukeropplevelse, ved å gjøre innholdet vårt tigjengelig for alle. Det er mange ting som kan og bør gjøres. Men først og fremst er det sentralt at vi bevist jobber med tilgjengelig-design, semantisk html og tilgjengelighets-testing.
 
+
+
 ##Mål for universell utforming 
 
+Tilgjengelighet er vanskelig og gode intensjoner kan føre til at en *vennlig* løsning for en spesifikk gruppe ødelegger opplevelsen for andre. Målet er å ha god kontroll og vite hva vi får til og hva vi skal jobbe mer med. 
+
 ###Tilgjenglighet for skjermlesere og tastatur
+
 * Løsningen skal fungere 100% med tab-navigering. Tab-navigering skal fungere på en logisk måte både visuelt og sematisk. Elementet som er i fokus skal være synlig med egen stil-setting.
-* Sidene skal testes med skjermlesere
+* Sidene skal testes med skjermlesere og interaksjonen skal være logisk og sammenhengende
 
 ###Semantisk html
 * *Alt*, *Title* og *Aria* attributer skal brukes for å gi tilleggsinformasjon 
