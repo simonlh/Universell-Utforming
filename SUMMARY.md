@@ -48,8 +48,7 @@
 
 * [Statistikk om tilgjengelighet](Statistikk/Statistikk.md)
 
-## Bøker og artikler
+## Kilder, artikler, bøker
 
-* [Bøker](Kilder/litteratur.md)
+* [Kilder](Kilder og lenker/sources.md)
 
-## Relevante lenker
