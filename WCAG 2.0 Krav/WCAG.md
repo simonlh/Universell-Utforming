@@ -12,7 +12,9 @@ Noen av forslagene her er til spesifikke krav, mens andre er generelle forslag s
 
 ## [1.1.1: Ikke tekstlig innhold](https://uu.difi.no/krav-og-regelverk/wcag-20-standarden/111-ikke-tekstlig-innhold-niva) {#111}
 
-Alt innhold som ikke er tekst må tolkes av støttemidler som skjermlesere. Basert på kontekst og behov må man vurdere hvordan elementen skal oppleveles. Dekorative elementer eller elementer som ikke presenteres for brukere skal det implementeres slik at det blir ignorert av skjermlesere.
+Alt innhold som ikke er tekst må tolkes av støttemidler som skjermlesere. Basert på kontekst og behov må man vurdere hvordan elementen skal oppleveles. 
+
+Dekorative elementer eller elementer som ikke presenteres for brukere skal det implementeres slik at det blir ignorert av skjermlesere.
 
 ###Anbefalinger
 
@@ -38,7 +40,7 @@ Informasjon skal være tilgjengelig for personer med hørsel og synsvansker. Det
 
 > Ting skal være kodet som det ser ut som
 
-Det beste er i blant det enkleste. Kravet er litt vagt men betyr i praksis at man følger html standarden og unngår å komplisere løsninger. Ikke finn opp kruttet. Presentasjonen av noe skal ikke påvirke det underliggende enkelhenten i html. Hvis noe ser ut som en liste bør det også være en liste i html.
+Det beste er i blant det enkleste. Kravet er litt vagt men betyr i praksis at man følger html standarden og unngår å komplisere løsninger. 
 
 ###Anbefalinger
 
@@ -271,7 +273,7 @@ Skjermlesere støtter flere språk, om en bruker har standard språk som norsk m
 
 > Endring av verdien til et skjemafelt medfører ikke automatisk betydelige endringer i siden.
 
-Automatikk som skjer uventet bør unngås. Det er derfor anbefalt å ha "submit" knapper for skjemaer. Felter som forsvinner og kommer frem er også problematisk for skjermlesere. Hvis en del av siden er "live" bør det brukes teknikker for å opplyse om dette til skjermlesere. Aria-live regions gjør det mulig å ha endringer på siden som opplyses. Et godt eksempel er (Mozilla sin artikkel om live-regions for en combo-box)[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions].
+Automatikk som skjer uventet bør unngås. Det er derfor anbefalt å ha "submit" knapper for skjemaer. Felter som forsvinner og kommer frem er også problematisk for skjermlesere. Hvis en del av siden er "live" bør det brukes teknikker for å opplyse om dette til skjermlesere. Aria-live regions gjør det mulig å ha endringer på siden som opplyses. Et godt eksempel er [Mozilla sin artikkel om live-regions for en combo-box](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions).
 
 ---
 

@@ -7,73 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "WCAG 2.0 Krav/WCAG.md",
-			"settings":
-			{
-				"buffer_size": 16490,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "SUMMARY.md",
-			"settings":
-			{
-				"buffer_size": 1782,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Om Universell Utforming/goals.md",
-			"settings":
-			{
-				"buffer_size": 1427,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Om Universell Utforming/Emner/Tastaturnavigasjon.md",
-			"settings":
-			{
-				"buffer_size": 19,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "#Tastaturnavigasjon"
-			}
-		},
-		{
-			"file": "WCAG 2.0 Krav/kravunntak.md",
-			"settings":
-			{
-				"buffer_size": 758,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "# Hvilke krav skal følges"
-			}
-		},
-		{
-			"file": "Om Universell Utforming/OmUU.md",
-			"settings":
-			{
-				"buffer_size": 892,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "## Testing\n\n",
-			"file": "Testing/Testing.md",
-			"file_size": 10,
-			"file_write_time": 131578247300000000,
-			"settings":
-			{
-				"buffer_size": 12,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -82,16 +15,24 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "pakc",
+		"height": 179.0,
+		"last_filter": "install",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
 			[
 				"pakc",
 				"Package Control: Remove Package"
 			]
 		],
-		"width": 508.0
+		"width": 428.0
 	},
 	"console":
 	{
@@ -113,9 +54,8 @@
 	[
 		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming",
 		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Emner",
-		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Kilder",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Kilder og lenker",
 		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Om Universell Utforming",
-		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Relevante Lenker",
 		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Statistikk",
 		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Testing",
 		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Verktøy",
@@ -123,14 +63,35 @@
 	],
 	"file_history":
 	[
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Emner/struktur.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Emner/AudioVideo.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Kilder og lenker/sources.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Emner/visuelt.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Emner/tekst.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Emner/Tastaturnavigasjon.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Emner/skjema.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/WCAG 2.0 Krav/README.md",
 		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Emner/README.md",
-		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/goals.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/SUMMARY.md",
 		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Om Universell Utforming/goals.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/WCAG 2.0 Krav/WCAG.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Emner/progressive.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Emner/dynamisk.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Om Universell Utforming/progressive.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Om Universell Utforming/struktur.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Om Universell Utforming/visuelt.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Om Universell Utforming/tekst.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Om Universell Utforming/skjema.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Om Universell Utforming/dynamisk.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/WCAG 2.0 Krav/forskrift.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/WCAG 2.0 Krav/kravunntak.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Om Universell Utforming/OmUU.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Testing/Testing.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/Om Universell Utforming/Emner/Tastaturnavigasjon.md",
+		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/goals.md",
 		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/README.md",
 		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/WCAG 2.0 Krav/IkkeKommentert.md",
 		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/forskrift.md",
-		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/WCAG 2.0 Krav/WCAG.md",
-		"/Users/simonlysnehyenes/Google Drive/Gitbook/Universell-Utforming/SUMMARY.md",
 		"/Users/simonlysnehyenes/Google Drive/marketUX.md",
 		"/System/Library/Preferences/Logging/Subsystems/com.apple.siri.plist",
 		"/Users/simonlysnehyenes/Downloads/type-master/LICENSE.md",
@@ -170,207 +131,13 @@
 	"groups":
 	[
 		{
-			"selected": 6,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "WCAG 2.0 Krav/WCAG.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16490,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16024,
-								16024
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 8.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "SUMMARY.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1782,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								148,
-								148
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Om Universell Utforming/goals.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1427,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1309,
-								1309
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Om Universell Utforming/Emner/Tastaturnavigasjon.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 19,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9,
-								9
-							]
-						],
-						"settings":
-						{
-							"auto_name": "#Tastaturnavigasjon",
-							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "WCAG 2.0 Krav/kravunntak.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 758,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								758,
-								758
-							]
-						],
-						"settings":
-						{
-							"auto_name": "# Hvilke krav skal følges",
-							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "Om Universell Utforming/OmUU.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 892,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								26,
-								26
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "Testing/Testing.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12,
-								12
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -391,11 +158,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
