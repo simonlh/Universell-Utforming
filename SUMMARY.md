@@ -7,12 +7,12 @@
 * [Emner](Emner/README.md)
     * [Tastatur navigasjon](Emner/Tastaturnavigasjon.md)
     * [Audio og video](Emner/AudioVideo.md)
-    * [Visuelt design](Emner/Visuelt.md)
+    * [Visuelt design](Emner/visuelt.md)
     * [Tekst og innhold](Emner/tekst.md)
     * [Struktur og semantisk html](Emner/struktur.md)
     * [Skjema og kontrollelementer](Emner/skjema.md)
     * [Dynamisk innhold](Emner/dynamisk.md)
-    * [Progressive enhancement](progressive.md)
+    * [Progressive enhancement](Emner/progressive.md)
 
 ## WCAG 2.0 Krav
 * [Forskrift om universll utforming](WCAG 2.0 Krav/forskrift.md)
