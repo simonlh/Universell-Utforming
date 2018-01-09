@@ -46,7 +46,9 @@
 
 * [Statistikk om tilgjengelighet](Statistikk/Statistikk.md)
 
-## Kilder, artikler, bøker
+## Kilder, artikler, og bøker
 
 * [Kilder](Kilder og lenker/sources.md)
+
+
 
