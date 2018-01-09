@@ -32,7 +32,7 @@
     * [Språk på siden og språk på deler av innhold](WCAG 2.0 Krav/WCAG.md#311)
     * [Inndata](WCAG 2.0 Krav/WCAG.md#322)
     * [Identifikasjon av feil, forslag ved feil og forhindring av feil](WCAG 2.0 Krav/WCAG.md#322)
-* [Ikke kommentert](WCAG 2.0 Krav/IkkeKommentert)
+* [Ikke kommentert](WCAG 2.0 Krav/IkkeKommentert.md)
 
 ## Testing
 
